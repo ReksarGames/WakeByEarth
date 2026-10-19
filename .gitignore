@@ -1,0 +1,16 @@
+# Configured copies and router backups stay local.
+*.local.rsc
+*.private.rsc
+.env
+.env.*
+*.backup
+*.bak
+
+# Local tool state and generated test scripts.
+/.serena/
+/.semble/
+/.codex/
+/auth-test.rsc
+/ready-test.rsc
+__pycache__/
+*.py[cod]
